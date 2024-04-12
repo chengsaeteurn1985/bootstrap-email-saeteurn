@@ -13,34 +13,30 @@
 <body>
     <div class="container-fluid">
         <div class="row min-vh-100">
-          <div class="col-2 d-none d-xl-flex bg-primary">
+          <div class="col-2 d-none d-xl-flex">
             <div class="d-flex flex-column">
               <!-- combine list with button/badge/offcanvas here -->
               <div class = "list-group list-group-item">
-                <a class="list-group-item list-group-item-action active" aria-current="true">Karnaca Parnassus</a>
-                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Inbox</a>
-                <a href="#" class="list-group-item list-group-item-action ">Sent</a>
-                <a href="#" class="list-group-item list-group-item-action ">Starred</a>
-                <a href="#" class="list-group-item list-group-item-action ">Drafts</a>
-                <a href="#" class="list-group-item list-group-item-action">Trash</a>
-                <a href="#" class="list-group-item list-group-item-action">Junk</a>
-                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Labels</a>
-                <a href="#" class="list-group-item list-group-item-action">Primary</a>
-                <a href="#" class="list-group-item list-group-item-action">Social</a>
-                <a href="#" class="list-group-item list-group-item-action">Work</a>
-                <!-- <div>Sent</div>
-                <div>Starred</div>
-                <div>Drafts</div>
-                <div>Trash</div>
-                <div>Junk</div>
-                <div>Labels</div>
-                <div>Primary</div>
-                <div>Social</div>
-                <div>Work</div> -->
-                </div>
-
+                <!-- add padding and margin -->
+                <!-- add icon outside i tag for normal font -->
+                <a class="list-group-item list-group-item-action active" aria-current="true"><i class="fa-regular fa-circle-user px-3">Karnaca Parnassus</i></a>
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true"><i class="fa-regular fa-envelope px-3">Inbox</i></a>
+                <a href="#" class="list-group-item list-group-item-action "><i class="fa-regular fa-paper-plane">Sent</i></a>
+                <a href="#" class="list-group-item list-group-item-action "><i class="fa-regular fa-star">Starred</i></a>
+                <a href="#" class="list-group-item list-group-item-action "><i class="fa-regular fa-file"></i>Drafts</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fa-regular fa-trash-can"></i>Trash</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fa-regular fa-circle-xmark"></i>Junk</a>
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true"><i class="fa-solid fa-tags"></i>Labels</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fa-regular fa-flag"></i>Primary</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fa-regular fa-flag"></i>Social</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fa-regular fa-flag"></i>Work</a>
+                <!-- TODO Add footer/signout button -->
+              </div>
+              <div class="first-column-footer d-grid mt-auto">
+                <button type="button" class="btn btn-primary"><i class="fa-solid fa-right-from-bracket">Sign Out</i></button>
+              </div>
             </div>
-          </div>
+          </div><!--ends first column-->
             <div class="d-flex col-md-4 bg-secondary">
               <div class="row">
                 <div class="col">
@@ -49,6 +45,7 @@
                   </form>
                 </div>
                   <!-- creates button for phone and tablet -->
+                  <!-- TODO maybe change to 1 button navbar -->
                 <button class="btn btn-primary d-none d-sm-block d-md-block d-xl-none">Button</button>
                 <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action">
@@ -109,12 +106,33 @@
                 </a>
               </div>
               </div>
+            </div> <!--ends second column-->
+          <div class="d-none d-md-flex d-flex flex-column bd-highlight col-8 col-xl-6">
+            <div class="d-flex flex-row justify-content-between bg-primary">
+              <!-- sender and recipient column-->
+              <div class="d-flex flex-column">
+                <div>futureSupport</div>
+                <div>To: Karnaca Parnassus</div>
+              </div>
+              <!-- for padding -->
+              <div class="pt-2">12:25am</div>
             </div>
-          <div class="d-none d-md-flex col-8 col-xl-6 bg-primary">
-            Email Content
-            <div class="email-content-container"></div>
-          </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum, magna eget dapibus aliquet, diam felis rhoncus purus, sit amet accumsan purus nulla in ipsum. 
+Suspendisse fermentum est a dictum dignissim. Phasellus condimentum, elit rhoncus congue maximus, tortor nisi tempus ipsum, id ullamcorper sapien elit eu nisl. Aenean pellentesque odio lacus, 
+et hendrerit eros sagittis id. Vestibulum pretium bibendum metus nec dapibus. Proin elementum magna in sagittis efficitur. Vestibulum placerat id urna a placerat. Aliquam dapibus, 
+diam vitae iaculis hendrerit, neque ligula viverra diam, ut congue lorem diam at nisl. Proin nec malesuada felis. Mauris non dictum justo. Curabitur nulla augue, cursus quis magna volutpat, faucibus sollicitudin augue. In molestie nibh id est tempor, ac hendrerit magna hendrerit. Donec vitae mauris ligula. Aliquam consectetur leo ac gravida bibendum.
+            </p>
+            <footer class="mt-auto list-group list-group-horizontal">
+              <a href="#" class="list-group-item "><i class="fa-regular fa-pen-to-square"></i></a>
+              <a href="#" class="list-group-item "><i class="fa-regular fa-trash-can"></i></a>
+              <a href="#" class="list-group-item "><i class="fa-solid fa-box-archive"></i></a>
+              <a href="#" class="list-group-item "><i class="fa-solid fa-reply"></i></a>
+              <a href="#" class="list-group-item "><i class="fa-solid fa-reply-all"></i></a>
+              <a href="#" class="list-group-item "><i class="fa-solid fa-share"></i></a>
+            </footer>
+          </div> <!--ends 3rd column-->
         </div>
-    </div>
+    </div><!--ends container-->
 </body>
 </html>
