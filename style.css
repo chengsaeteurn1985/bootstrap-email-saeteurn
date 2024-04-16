@@ -1,10 +1,39 @@
+#inbox-column {
+    height: 900px;
+    overflow-y: auto;
+}
 .list-group-item {
     margin-bottom: 5px;
+    border: none;
+    background-color: #F8F9FE;
 }
-.icon {
+.column-1, .list-group{
+    background-color: #F8F9FE;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .9rem;
+}
+.user-name, .inbox, .labels{
+    background-color: #D7DBF7;
+    color: #5764E2;
+}
+.fa-regular, .fa-solid {
     margin-right: 10px;
 }
 body {
     /* background-color: #5764E2; */
     background-color: #F8F9FE;
+}
+.btn {
+    background-color: #5764E2;
+}
+
+.email-header {
+    background-color: #D7DBF7;
+}
+#sidebar {
+    width: 25%;
+}
+.footer-icons {
+    background-color: #D7DBF7;
+    color: #5764E2;
 }
