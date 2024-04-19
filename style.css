@@ -1,5 +1,6 @@
-
-
+/* body {
+    overflow: hidden;
+} */
 #inbox-column {
     height: 900px;
     /* background-color: #5764E2; */
@@ -71,5 +72,11 @@ body, .offcanvas {
     color: #F8F9FE;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 /* remove 100vh in button for search  */
+/* remove scroll bar, fixed footer at bottom */
