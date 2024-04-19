@@ -15,40 +15,20 @@
 <body>
     <div class="container-fluid ps-0">
         <div class="row min-vh-100">
-          <div class="col-2 d-none d-xl-flex column-1">
-            <div class="d-flex flex-column">
-              <!-- combine list with button/badge/offcanvas here -->
+          <div class="col-sm-auto d-none d-xl-flex column-1">
+          <!-- <div class="col-2 d-none d-xl-flex column-1"> -->
+            <!-- <div class="d-flex flex-column"> -->
               <div class = "list-group list-group-item">
-                <!-- add padding and margin -->
-                <!-- add icon outside i tag for normal font -->
                 <!-- <a class="list-group-item list-group-item-action rounded user-name"><i class="fa-regular fa-circle-user"></i>Karnaca Parnassus</a> -->
                 <class class="dropdown">
                   <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fa-regular fa-circle-user"></i>Karnaca Parnassus
                   </button>
-                  <!-- TODO HIDE ACCOUNT, ACCORDION -->
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <li><a href="#" class="dropdown-item">Switch User</a></li>
                     <li><a href="#" class="dropdown-item">Sign out</a></li>
                   </ul>
                 </class>
-                <!-- <li>
-                  <div class="accordion" id="showAccordion">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Show more
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#showAccordion">
-                        <div class="accordion-body">
-                          <strong>this is strong</strong>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li> -->
-                <!-- <a class="list-group-item list-group-item-action active" aria-current="true"><i class="fa-regular fa-circle-user"></i>Karnaca Parnassus</a> -->
                 <a href="#" class="list-group-item list-group-item-action rounded inbox"><i class="fa-regular fa-envelope"></i>Inbox</a>
                 <a href="#" class="list-group-item list-group-item-action rounded"><i class="fa-regular fa-paper-plane"></i>Sent</a>
                 <a href="#" class="list-group-item list-group-item-action rounded"><i class="fa-regular fa-star"></i>Starred</a>
@@ -59,12 +39,11 @@
                 <a href="#" class="list-group-item list-group-item-action rounded"><i class="fa-regular fa-flag"></i>Primary</a>
                 <a href="#" class="list-group-item list-group-item-action rounded"><i class="fa-regular fa-flag"></i>Social</a>
                 <a href="#" class="list-group-item list-group-item-action rounded"><i class="fa-regular fa-flag"></i>Work</a>
-                <!-- TODO Add footer/signout button -->
                 <div class="first-column-footer d-grid mt-auto"><!-- mt-auto brings div to bottom of page-->
                   <button type="button" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i>Compose</button>
                 </div>
               </div>
-            </div>
+            <!-- </div> -->
           </div><!--ends first column-->
             <div class="d-flex col-md-4">
 
@@ -75,21 +54,21 @@
                 </a>
                 <!-- sidebar -->
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
-                  <div class="container d-flex flex-column">
-                    <nav class="navbar d-flex flex-column">
-                      <a href="#"><i class="fa-regular fa-circle-user m-3 fa-2x"></i></a>
-                      <a href="#"><i class="fa-regular fa-envelope m-3 fa-2x"></i></a>
-                      <a href="#"><i class="fa-regular fa-paper-plane m-3 fa-2x"></i></a>
-                      <a href="#"><i class="fa-regular fa-file m-3 fa-2x"></i></a>
-                      <a href="#"><i class="fa-regular fa-trash-can m-3 fa-2x"></i></a>
-                      <a href="#"><i class="fa-regular fa-circle-xmark m-3 fa-2x"></i></a>
-                      <a href="#"><i class="fa-solid fa-tags m-3 fa-2x"></i></a>
-                      <a href="#"><i class="fa-regular fa-flag m-3 fa-2x"></i></a>
-                      <a href="#"><i class="fa-regular fa-flag m-3 fa-2x"></i></a>
-                      <a href="#"><i class="fa-regular fa-flag m-3 fa-2x"></i></a>
-                      <a href="#"><i class="fa-regular fa-pen-to-square m-3 fa-2x"></i></a>
+                  <!-- <div class="container d-flex flex-column"> -->
+                    <nav class="navbar d-flex flex-column justify-content-start side-icons">
+                      <a href="#"><i class="fa-regular fa-circle-user m-3 fa-2x side-enlarge"></i></a>
+                      <a href="#"><i class="fa-regular fa-envelope m-3 fa-2x side-enlarge"></i></a>
+                      <a href="#"><i class="fa-regular fa-paper-plane m-3 fa-2x side-enlarge"></i></a>
+                      <a href="#"><i class="fa-regular fa-file m-3 fa-2x side-enlarge"></i></a>
+                      <a href="#"><i class="fa-regular fa-trash-can m-3 fa-2x side-enlarge"></i></a>
+                      <a href="#"><i class="fa-regular fa-circle-xmark m-3 fa-2x side-enlarge"></i></a>
+                      <a href="#"><i class="fa-solid fa-tags m-3 fa-2x side-enlarge"></i></a>
+                      <a href="#"><i class="fa-regular fa-flag m-3 fa-2x side-enlarge"></i></a>
+                      <a href="#"><i class="fa-regular fa-flag m-3 fa-2x side-enlarge"></i></a>
+                      <a href="#"><i class="fa-regular fa-flag m-3 fa-2x side-enlarge"></i></a>
+                      <a href="#"><i class="fa-regular fa-pen-to-square m-3 fa-2x side-enlarge"></i></a>
                     </nav>
-                  </div>
+                  <!-- </div> -->
                 </div>
               </div>
 
@@ -164,11 +143,11 @@
               </div>
               </div>
             </div> <!--ends second column-->
-          <div class="d-none d-md-flex d-flex flex-column bd-highlight col-8 col-xl-6">
+          <div class="d-none d-md-flex flex-column bd-highlight col"> <!--col-xl-6-->
             <div class="d-flex flex-row justify-content-between email-header rounded px-2">
               <!-- sender and recipient column-->
               <div class="d-flex flex-column">
-                <div>futureSupport</div>
+                <div>From: futureSupport</div>
                 <div>To: Karnaca Parnassus</div>
               </div>
               <!-- for padding -->
@@ -181,11 +160,11 @@ et hendrerit eros sagittis id. Vestibulum pretium bibendum metus nec dapibus. Pr
 diam vitae iaculis hendrerit, neque ligula viverra diam, ut congue lorem diam at nisl. Proin nec malesuada felis. Mauris non dictum justo. Curabitur nulla augue, cursus quis magna volutpat, faucibus sollicitudin augue. In molestie nibh id est tempor, ac hendrerit magna hendrerit. Donec vitae mauris ligula. Aliquam consectetur leo ac gravida bibendum.
             </p>
             <footer class="footer-icons mt-auto list-group list-group-horizontal">
-              <a href="#" class="list-group-item footer-icons"><i class="fa-regular fa-trash-can fa-2x"></i></a>
-              <a href="#" class="list-group-item footer-icons"><i class="fa-solid fa-box-archive fa-2x"></i></a>
-              <a href="#" class="list-group-item footer-icons"><i class="fa-solid fa-reply fa-2x"></i></a>
-              <a href="#" class="list-group-item footer-icons"><i class="fa-solid fa-reply-all fa-2x"></i></a>
-              <a href="#" class="list-group-item footer-icons"><i class="fa-solid fa-share fa-2x"></i></a>
+              <a href="#" class="list-group-item footer-icons rounded enlarge"><i class="fa-regular fa-trash-can fa-2x"></i></a>
+              <a href="#" class="list-group-item footer-icons rounded enlarge"><i class="fa-solid fa-box-archive fa-2x"></i></a>
+              <a href="#" class="list-group-item footer-icons rounded enlarge"><i class="fa-solid fa-reply fa-2x"></i></a>
+              <a href="#" class="list-group-item footer-icons rounded enlarge"><i class="fa-solid fa-reply-all fa-2x"></i></a>
+              <a href="#" class="list-group-item footer-icons rounded enlarge"><i class="fa-solid fa-share fa-2x"></i></a>
             </footer>
           </div> <!--ends 3rd column-->
         </div>

@@ -1,3 +1,5 @@
+
+
 #inbox-column {
     height: 900px;
     /* background-color: #5764E2; */
@@ -9,21 +11,7 @@
     border: none;
     background-color: #F8F9FE;
 }
-/* .list-group-item-action:hover::before,
-.list-group-item-action:hover::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background-color: #5764E2;
-}
-.list-group-item-action:hover::before {
-    top:0;
-}
-.list-group-item-action:hover::after {
-    bottom: 0;
-} */
+
 .list-group-item-action {
     transition: background-color .3s;
 }
@@ -54,11 +42,34 @@ body, .offcanvas {
 
 .email-header {
     background-color: #D7DBF7;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 #sidebar {
     width: 25%;
 }
-.footer-icons {
+.footer-icons{
     background-color: #D7DBF7;
     color: #5764E2;
 }
+.enlarge {
+    transition: transform .3s, color .3s;
+}
+.enlarge:hover {
+    transform: scale(1.2);
+    color: #F8F9FE;
+}
+.side-icons {
+    background-color: #D7DBF7;
+    height: 100vh;
+}
+.side-enlarge {
+    transition: background-color .3s;
+}
+.side-enlarge:hover {
+    transform: scale(1.4);
+    color: #F8F9FE;
+}
+
+
+/* remove 100vh in button for search  */
