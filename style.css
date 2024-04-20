@@ -2,8 +2,9 @@
     overflow: hidden;
 } */
 #inbox-column {
-    height: 900px;
+    /* height: 900px; */
     /* background-color: #5764E2; */
+    /* min-height: 100%; */
     background-color: #D7DBF7;
     overflow-y: auto;
 }
