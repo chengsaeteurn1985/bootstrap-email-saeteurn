@@ -19,6 +19,10 @@
     color: #5764E2;
     border-radius: 10px;
 }
+.list-group-item.active {
+    background-color: #D7DBF7;
+    color: rgb(46, 37, 147);
+}
 .column-1, .list-group, .search-bar{
     background-color: #F8F9FE;
     font-family: 'Courier New', Courier, monospace;
@@ -33,7 +37,6 @@
     margin-right: 10px;
 }
 body, .offcanvas {
-    /* background-color: #5764E2; */
     background-color: #F8F9FE;
 }
 .btn {
@@ -78,6 +81,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-/* remove 100vh in button for search  */
-/* remove scroll bar, fixed footer at bottom */
