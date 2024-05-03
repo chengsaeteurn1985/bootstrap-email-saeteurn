@@ -49,6 +49,12 @@ body, .offcanvas {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
+
+#userText {
+    background-color: #D7DBF7;
+    border-radius: 15px;
+    border-color: #D7DBF7;
+}
 #sidebar {
     width: 25%;
 }
